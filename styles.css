@@ -8,7 +8,19 @@ html {
   font-size: 62.5%;
 }
 
+#main {
+  margin: 30px 8px;
+  background-color: #cdc;
+  border-radius: 4px;
+}
 
+#title {
+  padding-top: 26px;
+}
+
+#main > p {
+  padding: 15px 0;
+}
 
 body {
   font-family: "Roboto Flex", sans-serif;
@@ -20,3 +32,17 @@ body {
 h1 {
   font-size: 4rem;
 }
+
+#img-div {
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
