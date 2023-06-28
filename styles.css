@@ -34,15 +34,54 @@ h1 {
 }
 
 #img-div {
-  background-color: white;
   padding: 10px;
   margin: 0 auto;
 }
 
+#img-div figure {
+  padding: 2rem;
+  background: lightgray;
+}
+
 img {
   max-width: 100%;
+  border-radius: 8px;
+  width: 60%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
 
+figcaption {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#timeline {
+  max-width: 700px;
+  padding-bottom: 2rem;
+  margin: 30px auto;
+}
+
+#timeline .lists {
+  margin: 30px 0;
+} 
+
+#timeline .lists ul {
+  display: inline-block;
+}
+
+#timeline .lists ul > li {
+  margin-bottom: 15px;
+}
+
+.lists ul li span {
+  font-weight: 700;
+}
+
+#time-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
